@@ -20,7 +20,7 @@ void main()
 	//------------------taking seed point from user------------------
 	printf("\nSeed Point\n");
 	scanf("%d%d",&x,&y);
-	//----------------Draw polygone-------------------
+	//------------------------Draw polygone--------------------------
 	initgraph(&gd,&gm,"");
 	for(i=0;i<v-1;i++)
 		{
